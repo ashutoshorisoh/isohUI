@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+  background-color: #0f172a; /* Dark blue background (blue-900 equivalent) */
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.2) 0%, transparent 10%);
+  background-size: 30px 30px; /* Adjust the size of the grid */
+  margin: 0;
+  height: 100%;
+}
